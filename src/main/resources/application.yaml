@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: security
+  datasource:
+    username: postgres
+    password: gomgom1029
+    url: jdbc:postgresql://localhost:5432/spring_security
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddt-auto: create-drop
+    show-sql: true
+app:
+  jwt_secrete: f7nJdvyp97Hp7iXz3a/cbA3jXUlf0MOuO9fK7BCyRUY=
